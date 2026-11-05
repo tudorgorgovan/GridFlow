@@ -1,0 +1,26 @@
+countries:
+  - code: RO
+    name: Romania
+    entsoe_zone: "10YRO-TEL------P"
+    latitude: 44.43
+    longitude: 26.10
+    enabled: true
+
+  - code: HU
+    name: Hungary
+    entsoe_zone: "10YHU-MAVIR----U"
+    latitude: 47.50
+    longitude: 19.04
+    enabled: false
+
+  - code: BG
+    name: Bulgaria
+    entsoe_zone: "10YCA-BULGARIA-R"
+    latitude: 42.70
+    longitude: 23.32
+    enabled: false
+
+entsoe_datasets:
+  - load
+  - generation
+  - prices
